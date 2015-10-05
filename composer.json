@@ -1,0 +1,21 @@
+{
+    "name": "machour/yii2-adminlte-widgets",
+    "description": "Yii2 AdminLTE widgets",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Achour",
+            "email": "machour@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "machour\\adminlte\\widgets\\": ""
+        }
+    }
+}
