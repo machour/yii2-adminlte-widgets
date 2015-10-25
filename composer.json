@@ -11,7 +11,13 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "machour/yii2-sparkline": "dev-master",
+        "machour/yii2-jquery-flot": "dev-master",
+        "2amigos/yii2-chartjs-widget": "*",
+        "ekaragodin/yii2-bootstrap-slider": "*",
+        "yii2mod/yii2-ion-slider": "*",
+        "rmrevin/yii2-ionicon": "*"
     },
     "autoload": {
         "psr-4": {
