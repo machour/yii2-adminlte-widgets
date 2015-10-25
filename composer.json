@@ -2,7 +2,7 @@
     "name": "machour/yii2-adminlte-widgets",
     "description": "Yii2 AdminLTE widgets",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
+    "keywords": ["yii2","extension","adminlte"],
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "machour\\adminlte\\widgets\\": ""
+            "machour\\yii2\\adminlte\\widgets\\": ""
         }
     }
 }
