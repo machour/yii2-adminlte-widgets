@@ -95,7 +95,7 @@ trait BoxTrait {
 
     private static function boxTool($widget, $icon) {
         return Html::tag(
-            'button',
+            'a',
             Html::tag('i', null, ['class' => 'fa fa-' . $icon]),
             ['data-widget' => $widget, 'class' => 'btn btn-box-tool']
         );
