@@ -15,7 +15,7 @@
         "machour/yii2-sparkline": "dev-master",
         "machour/yii2-jquery-flot": "dev-master",
         "2amigos/yii2-chartjs-widget": "*",
-        "ekaragodin/yii2-bootstrap-slider": "*",
+        "ekaragodin/yii2-bootstrap-slider": "dev-master",
         "yii2mod/yii2-ion-slider": "*",
         "rmrevin/yii2-ionicon": "*"
     },
