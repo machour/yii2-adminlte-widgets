@@ -12,7 +12,12 @@ class GridView extends BaseGridView
 
     public $responsive = true;
 
-    public $layout = '{items}<div><div class="pull-left">{summary}</div><div class="pull-right">{pager}</div><div class="clear" /></div>';
+    public $layout = '{items}
+    <div>
+        <div class="pull-left">{summary}</div>
+        <div class="pull-right">{pager}</div>
+        <div style="clear: both;"></div>
+    </div>';
 
     public function init()
     {

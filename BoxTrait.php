@@ -70,12 +70,10 @@ trait BoxTrait {
     public static function footer() {
         self::$footerUsed = true;
         echo Html::endTag('div');
+        echo Html::beginTag('div', ['class' => 'box-footer']);
         if (!empty(self::$boxConfig['footer'])) {
-            echo Html::beginTag('div', ['class' => 'box-footer']);
             echo self::$boxConfig['footer'];
             echo Html::endTag('div');
-        } else {
-            echo Html::beginTag('div', ['class' => 'box-footer']);
         }
     }
 
