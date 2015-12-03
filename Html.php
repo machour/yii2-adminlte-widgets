@@ -20,21 +20,23 @@ class Html extends \yii\bootstrap\Html
         return Html::tag('h2', $string, ['class' => 'page-header']);
     }
 
-    public static function fa($name, $tag = 'span')
+    public static function fa($name, $tag = 'span', $options = [])
     {
-        $options = ['prefix' => 'fa fa-', 'tag' => $tag];
+        $options['prefix'] = 'fa fa-';
+        $options['tag'] = $tag;
         return self::icon($name, $options);
     }
 
-    public static function glyph($name, $tag = 'span')
+    public static function glyph($name, $tag = 'span', $options = [])
     {
-        $options = ['tag' => $tag];
+        $options['tag'] = $tag;
         return self::icon($name, $options);
     }
 
-    public static function ion($name, $tag = 'span')
+    public static function ion($name, $tag = 'span', $options = [])
     {
-        $options = ['prefix' => 'ion ion-', 'tag' => $tag];
+        $options['prefix'] = 'ion ion-';
+        $options['tag'] = $tag;
         return self::icon($name, $options);
     }
 
